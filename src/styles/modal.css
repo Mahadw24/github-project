@@ -1,0 +1,90 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.image >img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.name > h2{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name >h4{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.followers{
+    display: flex;
+    align-items: center;
+}
+
+.following{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.followers > h2{
+    padding-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.following > h2{
+    padding-right: 5px;
+    padding-left: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.following > h3{
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.followers > h3{
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.left > h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent > h2{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.location {
+    display: flex;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data{
+    display: flex;
+}
